@@ -10,5 +10,38 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
   </head>
-  <body></body>
+  <body>
+    <header class="bg-[#FBF7EF]">
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <!-- Logo -->
+        <div class="flex items-center gap-2">
+          <img src="assets/logo.png" alt="logo" class="w-6 h-6" />
+          <span class="font-bold text-lg">Book Store</span>
+        </div>
+
+        <nav
+          class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700"
+        >
+          <a href="#" class="hover:text-purple-600">Home</a>
+          <a href="#" class="hover:text-purple-600">About us</a>
+          <a href="#" class="hover:text-purple-600">Course</a>
+          <a href="#" class="hover:text-purple-600">Our Service</a>
+          <a href="#" class="hover:text-purple-600">Contact us</a>
+        </nav>
+
+        <div class="hidden md:block">
+          <a
+            href="#"
+            class="bg-purple-600 text-white px-5 py-2 rounded-full text-sm"
+          >
+            Sign in
+          </a>
+        </div>
+
+        <button class="md:hidden text-2xl">☰</button>
+      </div>
+    </header>
+  </body>
 </html>
